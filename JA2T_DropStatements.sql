@@ -1,0 +1,28 @@
+-- Drop VIEW Table Statements
+DROP VIEW TOTAL_HOURS_ROW; /* Delete VIEW SKILL_TOTALHOURS Table */
+DROP VIEW PERCENT_JOBHOURS_WORKED_BY;
+DROP VIEW SKILLCODE_RACE_GENDERS_JOBHOURS_COLUMNS;   /* Delete VIEW RACE_GENDER_TOTALHOURS Table */
+DROP VIEW EEO_DETAIL_HOURS;             /* Delete VIEW DETAIL_HOURS Table */
+
+--  Drop Sequence Statements
+DROP SEQUENCE seqBid_ID;             /* Delete sequence of BidID */
+DROP SEQUENCE seqSupplierInfo_ID;    /* Delete sequence of SupplierID */
+DROP SEQUENCE seqContract_ID;        /* Delete sequence of ContractID */
+DROP SEQUENCE seqSupplierProject_ID; /* Delete sequence of SupplierProject */
+
+-- Drop Table Statements
+DROP TABLE BID;                     /* Delete BID Table */
+DROP TABLE CONTRACTOR_INFO;         /* Delete CONTRACTOR_INFO Table */
+DROP TABLE SUPPLIER_PROJECT;        /* Delete SUPPLIER_PROJECT Table */
+DROP TABLE EMPLOYEE_JOB;
+DROP TABLE INVOICE_LINE_ITEM;
+DROP TABLE PAYROLL;
+DROP TABLE TOOL;
+DROP TABLE RENTAL;
+DROP TABLE VEHICLE; 
+DROP TABLE SKILL; 
+DROP TABLE EMPLOYEE_INFO;
+DROP TABLE INVOICE;
+DROP TABLE CONTRACT;
+DROP TABLE SUPPLIER_INFO;       /* Delete SUPPLIER_INFO Table */
+DROP TABLE PROJECT; 
